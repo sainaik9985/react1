@@ -1,13 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Hello from "./App.js"
+import Button from './components/button/button.js';
+import Image from './components/image/image.js';
+import List from './components/list/List.js';
+import Table from './components/table/table.js';
+import Form from './components/forms/form.js';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Hello/>
+    <Button />
+    <Image/>
+    <List/>
+    <Table/>
+    <Form/>
   </React.StrictMode>
 );
 
